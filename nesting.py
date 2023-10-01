@@ -1,6 +1,6 @@
 import click
 
-
+""""""
 # nesting command
 # @click.group()
 # def cli():
@@ -20,6 +20,19 @@ import click
 # if __name__ == '__main__':
 #   cli()
 
+""""""
+# Add later command
+# @click.command()
+# def greet():
+#   click.echo('Hello world!')
+  
+# @click.group()
+# def group():
+#   pass
+
+# group.add_command(greet)
+
+""""""
 # Auto nesting command
 @click.group()
 def cli():
