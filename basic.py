@@ -1,19 +1,20 @@
 import click
 
 # basic command
-# @click.command()
-# def hello():
-#   click.echo('Hello world!')
-  
-# if __name__ == '__main__':
-#   hello()
-
 @click.command()
-def greet():
+def hello():
   click.echo('Hello world!')
   
-@click.group()
-def group():
-  pass
+if __name__ == '__main__':
+  hello()
 
-group.add_command(greet)
+# Add later command
+# @click.command()
+# def greet():
+#   click.echo('Hello world!')
+  
+# @click.group()
+# def group():
+#   pass
+
+# group.add_command(greet)
